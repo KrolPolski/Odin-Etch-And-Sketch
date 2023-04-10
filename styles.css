@@ -1,0 +1,28 @@
+.container {
+    background-color: coral;
+    width: 90vh;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex: 1 1 auto;
+    align-items: stretch;}
+
+h1 {text-align: center;}
+
+.rowDiv {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    flex: 1;
+    }
+.sqDiv {background-color: red
+    flex: 1;
+    border: 1px solid black;
+}
+body {display: flex;
+    
+flex-direction: column;
+justify-content: center;
+align-items: center;}
