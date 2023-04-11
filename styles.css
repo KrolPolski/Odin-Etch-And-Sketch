@@ -1,25 +1,37 @@
+div {display: flex;}
+
 .container {
     background-color: coral;
-    width: 90vh;
+    width: 80vh;
+    aspect-ratio: 1 / 1;
     display: flex;
     justify-content: stretch;
     flex-direction: column;
     flex-wrap: nowrap;
     flex: 1 1 auto;
-    align-items: stretch;}
+    align-items: stretch;
+    padding: 10px;}
+    
 
 h1 {text-align: center;}
 
 .rowDiv {
     background-color: blue;
     display: flex;
-    justify-content: space-between;
-    align-items: center;    
+    justify-content: stretch;
+    align-items: stretch;    
+    flex-direction: row;
     flex: 1;
+    min-width: 80vh;
+    min-height:10px;
+
     }
-.sqDiv {background-color: red
-    flex: 1;
+.sqDiv {background-color: red;
+    display: flex;
     border: 1px solid black;
+    min-width: 10px;
+    min-height: 10px;
+    flex: 1 1 auto;
 }
 body {display: flex;
     
