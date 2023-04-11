@@ -26,13 +26,16 @@ h1 {text-align: center;}
     min-height:10px;
 
     }
-.sqDiv {background-color: red;
+.sqDiv {background-color: white;
     display: flex;
     border: 1px solid black;
     min-width: 10px;
     min-height: 10px;
     flex: 1 1 auto;
 }
+
+.hovered {background-color: red;}
+
 body {display: flex;
     
 flex-direction: column;

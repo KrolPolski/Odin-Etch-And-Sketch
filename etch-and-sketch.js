@@ -1,5 +1,5 @@
 const container = document.querySelector(".container");
-
+// generate 16 x 16 grid
 for (i = 16; i > 0; i--)
 {
     const rowDiv = document.createElement('div');
@@ -11,7 +11,11 @@ for (i = 16; i > 0; i--)
         {
             const sqDiv = document.createElement('div');
             sqDiv.classList.add("sqDiv");
-            //sqDiv.textContent = "ho";
             rowDiv.appendChild(sqDiv);
+            sqDiv.addEventListener('mouseover', function(){
+                sqDiv.classList.add("hovered");});
         }
 }
+
+
+
